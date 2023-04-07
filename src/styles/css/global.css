@@ -1,0 +1,12 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: "Alkatra", cursive;
+}
+
+body {
+  background-image: url("../../assets/bg.jpg");
+  background-size: cover;
+  background-position: center;
+}

@@ -1,0 +1,51 @@
+.container {
+}
+
+.modal {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(236, 236, 236, 0.85);
+  z-index: 999;
+}
+
+.modalBody {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  position: absolute;
+  flex-direction: column;
+  width: 40vh;
+  height: 40vh;
+  background-color: rgb(98, 114, 114, 0.85);
+  border: none;
+  border-radius: 5px;
+  padding: 10px;
+}
+
+.modalBody div {
+  position: relative;
+  width: 100%;
+  margin: 0.5rem;
+}
+
+.modalBody div input {
+  position: absolute;
+  right: 10px;
+  border-radius: 5px;
+  border: none;
+}
+
+button {
+  padding: 0.75rem !important;
+}
+
+button:hover {
+  cursor: pointer;
+  background-color: rgba(106, 106, 106, 0.5) !important;
+}

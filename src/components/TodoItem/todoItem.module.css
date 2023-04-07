@@ -1,0 +1,66 @@
+.todoItem {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  margin: 2px;
+}
+
+.containerDone {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  border: 2px solid rgb(0, 250, 67);
+  width: 40%;
+  border-radius: 2px;
+  background-color: rgba(106, 106, 106, 0.75);
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  border: 2px solid rgb(238, 139, 156);
+  width: 40%;
+  border-radius: 2px;
+  background-color: rgba(106, 106, 106, 0.75);
+}
+
+.todoHeader {
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+
+.todoHeader h2 {
+  width: 90%;
+  text-align: center;
+}
+
+.todoMenu {
+  padding: 2px;
+  cursor: pointer;
+  width: 25px;
+  height: 25px;
+  margin-right: 5px;
+  padding: 2px;
+  padding-top: 4px;
+  border-radius: 2px;
+  background-color: azure;
+  position: relative;
+}
+
+.menuItem {
+  width: 100%;
+  border-top: 2px solid black;
+  margin-bottom: 5px;
+}
+
+.done {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}

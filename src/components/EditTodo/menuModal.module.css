@@ -1,0 +1,10 @@
+.container {
+  position: absolute;
+  left: 100%;
+  top: 0;
+  display: flex;
+}
+
+.btn:hover {
+  background-color: rgba(135, 206, 250, 0.85) !important;
+}
